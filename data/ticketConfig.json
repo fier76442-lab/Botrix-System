@@ -1,0 +1,139 @@
+{
+  "1550513070772584538": {
+    "panelChannelId": "1550557193743638598",
+    "staffRoleId": "1550539810190397630",
+    "categoryId": "1550540087907975238",
+    "panelPhoto": "https://cdn.discordapp.com/attachments/1550495812499275846/1550520222023291010/LEGEND_PvP_1920x1080.png?ex=6aaea1fc&is=6aad507c&hm=2940e4fb2eacc56bc86167b30da3b28d3fde1abf329849b92ee7d13c5685f264&",
+    "panelDescription": "fdfsfsdf",
+    "buttons": [
+      {
+        "label": "Need Support Botrix",
+        "emoji": "🎫"
+      },
+      {
+        "label": "Create A Personal Bot",
+        "emoji": "🤖"
+      },
+      {
+        "label": "Create A Personal Project",
+        "emoji": "🛠️"
+      },
+      {
+        "label": "Partnership",
+        "emoji": "🤝"
+      }
+    ],
+    "buttonCount": 4,
+    "imageUrl": "https://cdn.discordapp.com/attachments/1550495812499275846/1550502792085639239/18.09.2026_14.42.46_REC.png?ex=6aae91c0&is=6aad4040&hm=3191fefc29446f38f3e7d90579e7f46ee71572f482e27e953ddc7d8e79c62d39&",
+    "description": "If you Need Help Just Open Ticket",
+    "panelMessageId": "1553097889985724568",
+    "ticketLogsChannelId": "1550540729489555667"
+  },
+  "1550630518947577886": {
+    "panelChannelId": "1550630519799287830",
+    "description": "W BA333",
+    "ticketLogsChannelId": "1550630519799287830"
+  },
+  "1264730900902707200": {
+    "panelChannelId": "1549500547873120286",
+    "staffRoleId": "1549500033437540522",
+    "categoryId": "1549500455242039446",
+    "ticketLogsChannelId": "1549500544790433962",
+    "buttonCount": 3,
+    "description": "If you Need A help Just Open a ticket",
+    "buttons": [
+      {
+        "label": "Need Support",
+        "emoji": "🎫",
+        "style": "Primary",
+        "imageUrl": "https://cdn.discordapp.com/attachments/1512469167805169905/1550977615555207220/content.png?ex=6ab04bf7&is=6aaefa77&hm=2da1758afac828fbe42d13b1b1687bedc001ad546018b537a555bfe85bc3186a&"
+      },
+      {
+        "label": "Need Partner ship",
+        "emoji": "🎫",
+        "style": "Primary",
+        "imageUrl": "https://cdn.discordapp.com/attachments/1512469167805169905/1550977615555207220/content.png?ex=6ab04bf7&is=6aaefa77&hm=2da1758afac828fbe42d13b1b1687bedc001ad546018b537a555bfe85bc3186a&"
+      },
+      {
+        "label": "Need Hight Rank",
+        "emoji": "🎫",
+        "style": "Primary",
+        "imageUrl": "https://cdn.discordapp.com/attachments/1512469167805169905/1550977615555207220/content.png?ex=6ab04bf7&is=6aaefa77&hm=2da1758afac828fbe42d13b1b1687bedc001ad546018b537a555bfe85bc3186a&"
+      },
+      {
+        "label": "Staff Application",
+        "emoji": "🤝",
+        "style": "Danger",
+        "imageUrl": ""
+      }
+    ],
+    "panelImageUrl": "https://cdn.discordapp.com/attachments/1512469167805169905/1550977615555207220/content.png?ex=6ab04bf7&is=6aaefa77&hm=2da1758afac828fbe42d13b1b1687bedc001ad546018b537a555bfe85bc3186a&",
+    "panelMessageId": "1550992743139123290"
+  },
+  "1480324448090591317": {
+    "panelChannelId": "1544359770406781128",
+    "staffRoleId": "1544359509126946986",
+    "categoryId": "1544359719886659644",
+    "buttonCount": 3,
+    "description": "・If You Need To Join The Gang Just Open A Ticket Need Join Gang \n・If You Need Other Help Just Open a Ticket Other",
+    "ticketLogsChannelId": "1550998234158334022",
+    "panelMessageId": "1551000477263462520",
+    "buttons": [
+      {
+        "label": "Need Join Gang",
+        "emoji": "🎫",
+        "style": "Primary",
+        "imageUrl": ""
+      },
+      {
+        "label": "Need Hight Rank",
+        "emoji": "🤖",
+        "style": "Secondary",
+        "imageUrl": ""
+      },
+      {
+        "label": "Other",
+        "emoji": "🛠️",
+        "style": "Success",
+        "imageUrl": ""
+      }
+    ],
+    "panelImageUrl": "https://cdn.discordapp.com/attachments/1519115181366579420/1550994179121741907/ChatGPT_Image_11_sept._2026_13_12_51.png?ex=6ab05b64&is=6aaf09e4&hm=f9ea61a87b63dc00f261e366ecb6b32e2c6baa08ef1741c9a2b1fa5d0ead4f2b&"
+  },
+  "1539762442953822359": {
+    "panelChannelId": "1551324763903758486",
+    "staffRoleId": "1550601436457340938",
+    "categoryId": "1551324554306130023",
+    "buttonCount": 4,
+    "buttons": [
+      {
+        "label": "Need Help",
+        "emoji": "🎫",
+        "style": "Primary",
+        "imageUrl": ""
+      },
+      {
+        "label": "Staff Application",
+        "emoji": "🤖",
+        "style": "Secondary",
+        "imageUrl": ""
+      },
+      {
+        "label": "PartnerShip",
+        "emoji": "🛠️",
+        "style": "Success",
+        "imageUrl": ""
+      },
+      {
+        "label": "Other",
+        "emoji": "🤝",
+        "style": "Danger",
+        "imageUrl": ""
+      }
+    ],
+    "panelImageUrl": "https://cdn.discordapp.com/attachments/1551687035075567636/1551688316464922715/file_000000004ef8820aa9e82c6cf7dbae5e.png?ex=6ab38a9b&is=6ab2391b&hm=bb8086ddb231cfe2df5e2fd125e090448d664cfe0496fb86af5af89f27e999ad&",
+    "description": "if You Need Help Just Open A ticket",
+    "ticketLogsChannelId": "1551960611930505287",
+    "panelMessageId": "1551960721640783916"
+  }
+}

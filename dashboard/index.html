@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Botrix System — Dashboard</title>
+<meta name="theme-color" content="#08090d">
+<link rel="stylesheet" href="/dashboard/style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">B</div>
+      <div><strong>botrix</strong><span>system</span></div>
+    </div>
+    <div class="workspace">
+      <span class="dot"></span><span id="connectionText">Bot online</span>
+    </div>
+    <nav>
+      <div class="nav-label">GENERAL</div>
+      <button class="nav-item active" data-page="overview"><span>⌂</span>Overview</button>
+      <button class="nav-item" data-page="servers"><span>◈</span>Servers</button>
+      <button class="nav-item" data-page="activity"><span>◷</span>Activity</button>
+      <div class="nav-label">MANAGEMENT</div>
+      <button class="nav-item" data-page="moderation"><span>✦</span>Moderation</button>
+      <button class="nav-item" data-page="ai"><span>✧</span>AI Assistant</button>
+      <button class="nav-item" data-page="logs"><span>▤</span>Logs</button>
+      <button class="nav-item" data-page="welcome"><span>⌁</span>Welcome</button>
+      <button class="nav-item" data-page="tickets"><span>□</span>Tickets</button>
+      <div class="nav-label">SYSTEM</div>
+      <button class="nav-item" data-page="bot"><span>●</span>Bot Account</button>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="mini-status"><span class="status-dot"></span><div><b id="sideBotName">Botrix System</b><small id="sideServers">Loading…</small></div></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <div class="crumb">BOTRIX SYSTEM <span>/</span> <b id="pageCrumb">Overview</b></div>
+      </div>
+      <div class="top-actions">
+        <button class="icon-btn" id="refreshBtn" title="Refresh">↻</button>
+        <span class="live"><i></i> LIVE</span>
+      </div>
+    </header>
+
+    <section class="content">
+      <div id="page-overview" class="page active"></div>
+      <div id="page-servers" class="page"></div>
+      <div id="page-activity" class="page"></div>
+      <div id="page-moderation" class="page"></div>
+      <div id="page-ai" class="page"></div>
+      <div id="page-logs" class="page"></div>
+      <div id="page-welcome" class="page"></div>
+      <div id="page-tickets" class="page"></div>
+      <div id="page-bot" class="page"></div>
+    </section>
+  </main>
+</div>
+<div id="toast"></div>
+<script src="/dashboard/app.js"></script>
+</body>
+</html>

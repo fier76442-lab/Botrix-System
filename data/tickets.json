@@ -1,0 +1,23 @@
+{
+  "1550988044679782472": {
+    "guildId": "1264730900902707200",
+    "userId": "1474376084647710762",
+    "buttonIndex": 0,
+    "buttonLabel": "Need Support",
+    "createdAt": 1789854766506
+  },
+  "1551000492719476760": {
+    "guildId": "1480324448090591317",
+    "userId": "1474376084647710762",
+    "buttonIndex": 2,
+    "buttonLabel": "Other",
+    "createdAt": 1789857734429
+  },
+  "1551051350882914419": {
+    "guildId": "1550513070772584538",
+    "userId": "1474376084647710762",
+    "buttonIndex": 0,
+    "buttonLabel": "Need Support Botrix",
+    "createdAt": 1789869860083
+  }
+}

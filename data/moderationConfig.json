@@ -1,0 +1,22 @@
+{
+  "1528162990673629224": {
+    "bannedRoleId": "1538767597321855016",
+    "blacklistedRoleId": "1538767604389388410",
+    "whitelistedRoleId": "1538767594889416804",
+    "waitingCheckRoleId": "1538767600211992617",
+    "waitingAdminRoleId": "1538767596416008342",
+    "warn1RoleId": "1540749187908505640",
+    "warn2RoleId": "1540749446437150750",
+    "warn3RoleId": "1540749564372455524"
+  },
+  "1502073735660961832": {
+    "bannedRoleId": "1538767597321855016",
+    "blacklistedRoleId": "1538767604389388410",
+    "whitelistedRoleId": "1538767594889416804",
+    "waitingCheckRoleId": "1538767600211992617",
+    "waitingAdminRoleId": "1538767596416008342",
+    "warn1RoleId": "1540749187908505640",
+    "warn2RoleId": "1540749446437150750",
+    "warn3RoleId": "1540749564372455524"
+  }
+}

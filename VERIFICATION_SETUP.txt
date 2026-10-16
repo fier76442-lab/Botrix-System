@@ -1,0 +1,16 @@
+BOTRIX SYSTEM — VERIFICATION SETUP
+
+1) Keep your real .env private. Copy .env.example to .env and fill in your current bot token, OpenAI key, and Discord application details.
+2) Discord Developer Portal > your application > OAuth2: copy the Client Secret into OAUTH_CLIENT_SECRET. Add the exact callback URL (for example https://YOUR_PUBLIC_DOMAIN/verify/callback) to Redirects. Put that same exact URL in OAUTH_REDIRECT_URI.
+3) Host this bot on a public HTTPS-capable host/domain and forward the configured VERIFY_PORT (default 3000) to this Node process. The public HTTPS URL must proxy to the Node server. A local-only localhost URL will not work for other users.
+4) In the Bot settings, enable the bot's Server Members Intent. Invite the bot to each target server. The bot must already be a member of the target server for /addmembre to work.
+5) Restart the bot. Run /verification_bot in a server where you have Manage Server. Users click Verify Now and explicitly authorize the Discord OAuth screen.
+6) Run /addmembre serverid:<TARGET_SERVER_ID> in a server where you have Manage Server. Botrix processes only users who verified and consented to guilds.join. The bot must already be in the target server.
+
+IMPORTANT SECURITY: The original uploaded ZIP included a live Discord bot token and OpenAI API key in .env. They were not copied into this patched ZIP. Revoke/regenerate both secrets now in Discord Developer Portal and OpenAI dashboard, then update your private .env. OAuth access tokens are stored in data/verifiedUsers.json; restrict filesystem access and do not share that file. Users must opt in; this does not force users into a server.
+
+6) Use /verification_bot to post the verification embed and button. Users must explicitly approve Discord OAuth; never ask for their Discord password.
+7) Use /addmembre serverid:<TARGET_SERVER_ID>. Only users with a saved OAuth access token and the guilds.join scope are attempted. Access tokens are stored in data/verifiedUsers.json and must be kept private.
+8) The /addmembre command reports members successfully added separately from users already in the server or requests that failed. Tokens expire; this build does not automatically refresh expired tokens.
+
+Security reminder: Never share your real .env file. If a bot token or API key was ever included in a shared ZIP, rotate it immediately.
